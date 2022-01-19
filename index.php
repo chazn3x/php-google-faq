@@ -62,6 +62,24 @@ $faqs = [
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    
+    <!-- Header -->
+    <header></header>
+    <!-- Main -->
+    <main>
+        <div class="faqs">
+            <?php foreach ($faqs as $faq) { ?>
+                <div class="faqs-faq">
+                    <div class="faqs-question">
+                        <h2><?php echo $faq['question'] ?></h2>
+                    </div>
+                    <div class="faqs-answer">
+                        <?php echo $faq['answer'] ?>
+                    </div>
+                </div>
+            <?php } ?>
+        </div>
+    </main>
+    <!-- Footer -->
+    <footer></footer>
 </body>
 </html>
