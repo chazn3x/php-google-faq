@@ -112,7 +112,7 @@ $faqs = [
     <!-- Header -->
     <header></header>
     <!-- Main -->
-    <main>
+    <main class="container">
         <div class="faqs">
             <?php foreach ($faqs as $faq) { ?>
                 <div class="faqs-faq">

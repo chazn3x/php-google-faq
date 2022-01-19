@@ -1,7 +1,60 @@
-* {
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+*:not(ol) {
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-smooth: antialiased;
+  -webkit-font-smoothing: antialiased;
+}
+
+h2, h3, h4 {
+  color: #3c4043;
+  font-weight: 500;
+}
+
+p {
+  color: rgba(0, 0, 0, 0.87);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  margin: 2rem 0;
+}
+
+a {
+  color: rgba(0, 0, 0, 0.87);
+  text-decoration: none;
+}
+
+.container {
+  width: 100%;
+  max-width: 1000px;
+  padding: 1.5rem;
+  margin: 0 auto;
+}
+
+.faqs-faq {
+  margin: 5rem 0;
+}
+
+.faqs-faq ol {
+  margin: 0 0 0 23px;
+  padding: 0;
+}
+
+.faqs-faq ol li {
+  padding-left: 1rem;
+}
+
+.faqs-faq h3 {
+  margin-top: 4rem;
+}
+
+.faqs-link {
+  color: #3367d6;
 }
 /*# sourceMappingURL=style.css.map */
