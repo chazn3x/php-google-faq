@@ -148,7 +148,34 @@ $faqs = [
         </div>
     </main>
     <!-- Footer -->
-    <footer></footer>
+    <footer class="footer">
+        <div class="container footer-wrapper">
+            <div class="left">
+                <nav>
+                    <ul class="footer-links">
+
+                    </ul>
+                </nav>
+            </div>
+            <div class="right">
+                <div class="lang-icon">
+                    <div class="bubble">
+                        <i class="fas fa-comment-alt"></i>
+                    </div>
+                    <div class="globe">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                </div>
+                <select class="languages">
+                    <option>Francese</option>
+                    <option>Inglese</option>
+                    <option selected>Italiano</option>
+                    <option>Spagnolo</option>
+                    <option>Tedesco</option>
+                </select>
+            </div>
+        </div>
+    </footer>
 
     <script src="./js/main.js"></script>
 </body>
