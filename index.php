@@ -1,5 +1,4 @@
 <?php
-
 $faqs = [
     [
         "question" => "Come state implementando la recente decisione della Corte di giustizia dell'Unione europea (CGUE) relativa al diritto all'oblio?",
@@ -96,7 +95,6 @@ $faqs = [
         </p>"
     ],
 ];
-
 ?>
 
 <!DOCTYPE html>
@@ -106,11 +104,33 @@ $faqs = [
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Google Faq</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
     <!-- Header -->
-    <header></header>
+    <header class="header">
+        <div class="header-top">
+            <div class="left">
+                <a href="#" title="Privacy e termini">
+                    <img class="logo" src="./img/google.svg" alt="Google logo">
+                </a>
+                <h1><a href="#" title="Privacy e termini">Privacy e termini</a></h1>
+            </div>
+            <div class="right">
+                <div class="apps">
+                    <svg class="gb_Ne" focusable="false" viewBox="0 0 24 24"><path d="M6,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM16,6c0,1.1 0.9,2 2,2s2,-0.9 2,-2 -0.9,-2 -2,-2 -2,0.9 -2,2zM12,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2z"></path></svg>
+                </div>
+                <div class="avatar"></div>
+            </div>
+        </div>
+        <div class="header-bottom">
+            <nav class="navbar">
+                <ul class="navbar-links">
+
+                </ul>
+            </nav>
+        </div>
+    </header>
     <!-- Main -->
     <main class="container">
         <div class="faqs">
@@ -128,5 +148,7 @@ $faqs = [
     </main>
     <!-- Footer -->
     <footer></footer>
+
+    <script src="./js/main.js"></script>
 </body>
 </html>
